@@ -1,0 +1,34 @@
+# EditorConfig is awesome: https://EditorConfig.org
+root = true
+
+[*]
+charset = utf-8
+end_of_line = lf
+indent_style = space
+indent_size = 4
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+[Dockerfile]
+indent_size = 4
+
+[*.{md,yml,yml.dist,yaml,neon,neon.dist}]
+indent_style = space
+indent_size = 2
+
+[*.{php,xml,yml,json,dist,twig,html}]
+charset = utf-8
+indent_style = space
+indent_size = 4
+trim_trailing_whitespace = true
+insert_final_newline = true
+
+[{docker-compose.yml,package.json,.travis.yml,.pcit.yml,.drone.yml}]
+indent_style = space
+indent_size = 2
+
+[*.{py,php,go,java,xml}]
+indent_size = 4
+
+[Makefile]
+indent_style = tab
