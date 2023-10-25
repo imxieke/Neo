@@ -1,26 +1,26 @@
-<p style="text-align:center;font-size:46px;"> PHP Template</p>
+<p style="text-align:center;font-size:46px;"> Neo PHP Components</p>
 
 ## About XXX
 - What's this?
 
 ## Features
-- 
+-
 
 ## Usage
-- 
+-
 
 ## Installation
 - Install XXX with [Composer](https://getcomposer.org/)
   - `composer require imxieke/xxxx`
 
 ## Documentation
-- 
+-
 
 ## CHANGELOG
 See [CHANGELOG.md]()
 
 ## Contributing
-- 
+-
 
 
 ## Security Vulnerabilities

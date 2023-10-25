@@ -1,9 +1,9 @@
 {
-    "name": "imxieke/php-template",
-    "description": "PHP Project Template",
+    "name": "imxieke/neo",
+    "description": "php Components",
     "type": "project",
     "license": "MIT",
-    "homepage": "https://github.com/imxieke/php-template",
+    "homepage": "https://github.com/imxieke/Neo",
     "keywords": [
         "php",
         "project",
@@ -27,6 +27,15 @@
         "phpstan/phpstan": "^1.3",
         "symfony/var-dumper": "^5.4",
         "vimeo/psalm": "^4.16"
+    },
+    "autoload": {
+        "files": [
+            "src/helper.php"
+        ],
+        "psr-4": {
+            "Neo\\": "src/Neo/",
+            "Neo\\Utils\\": "src/Utils/"
+        }
     },
     "config": {
         "preferred-install": "dist",
